@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="nurture">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Child Nutrition Check — MalFusion{% endblock %}</title>
+  <meta name="description" content="A friendly screening tool that estimates a young child's nutritional status from simple measurements and health history.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+</head>
+<body>
+
+  <!-- ===== SVG icon sprite ===== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M11 20A7 7 0 0 1 4 13c0-4 3-8 9-9 .5 6-2 9-6 11"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M5 19c3-4 6-6 9-7"/></symbol>
+      <symbol id="i-child" viewBox="0 0 24 24"><circle cx="12" cy="6" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 21v-4a5 5 0 0 1 10 0v4M9 21h6"/></symbol>
+      <symbol id="i-ruler" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M7 8v3M11 8v4M15 8v3M19 8v4"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7-4.5-9-9a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c-2 4.5-7 9-7 9Z"/></symbol>
+      <symbol id="i-bottle" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 3h6M10 3l-.5 3M14 3l.5 3M8 9a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3Z"/><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M8 12h3"/></symbol>
+      <symbol id="i-steth" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 3v5a4 4 0 0 0 8 0V3M5 3H3m2 0h2m4 0h2m-2 0h2M9 16a6 6 0 0 0 6 6c2.8 0 4-2 4-4v-2"/><circle cx="19" cy="14" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+      <symbol id="i-save" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 5a2 2 0 0 1 2-2h9l3 3v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" d="M8 3v5h7M8 21v-6h8v6"/></symbol>
+      <symbol id="i-cog" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0 4-4m-4 4-4-4M4 21h16"/></symbol>
+      <symbol id="i-check-data" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6c0-1.7 4-3 9-3s9 1.3 9 3-4 3-9 3-9-1.3-9-3Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6v12c0 1.7 4 3 9 3M21 6v6"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m15 18 2 2 4-4"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== Top bar ===== -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="{{ url_for('index') }}">
+        <span class="mark"><svg><use href="#i-leaf"/></svg></span>
+        <span class="brand-text">
+          <strong>NutriCheck</strong>
+          <span>MalFusion model</span>
+        </span>
+      </a>
+      <div class="topbar-spacer"></div>
+      <nav style="display:flex;align-items:center;gap:6px">
+        <a class="nav-link {% block nav_home %}{% endblock %}" href="{{ url_for('index') }}">Check a child</a>
+        <a class="nav-link {% block nav_admin %}{% endblock %}" href="{{ url_for('admin') }}">Admin</a>
+      </nav>
+      <div class="theme-switch" title="Choose a theme">
+        <span class="label">Theme</span>
+        <div class="swatches" id="swatches">
+          <button class="swatch nurture" data-theme="nurture" aria-pressed="true"  title="Nurture" aria-label="Nurture theme"></button>
+          <button class="swatch sunrise" data-theme="sunrise" aria-pressed="false" title="Sunrise" aria-label="Sunrise theme"></button>
+          <button class="swatch calm"    data-theme="calm"    aria-pressed="false" title="Calm"    aria-label="Calm theme"></button>
+          <button class="swatch night"   data-theme="night"   aria-pressed="false" title="Night"   aria-label="Night theme"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      NutriCheck is a screening aid powered by the <strong>MalFusion</strong> ensemble model.
+      It supports — but does not replace — assessment by a qualified health worker.
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

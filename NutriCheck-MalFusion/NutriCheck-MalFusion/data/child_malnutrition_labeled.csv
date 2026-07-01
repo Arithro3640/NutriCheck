@@ -1,0 +1,313 @@
+Gender,Age(days),Weight(Kg),Height(cm),Middle Upper Arm Circumference(cm),Odema,Birth Weight(Kg),Multiple Baby,Birth Complication,Breastfeeding status,Formula Feeding,Breastfeeding Duration(days),Is Other Food Given or Not in the First Six Months,Diarea,Duration of Diarea (Day),Fever,Pneumonia,Vomit,Cough,Appetite,Chronic Disease,Jaundis,Bronchiolitis,Tuberculosis,immunisation,Pregnancy Duration(month),Mother's nutritional status during pregnancy,Mother's Education,Birth Procedure,Nutritional_Status
+Female,213,6.8,60,14.5,No,2.7,1,Premature,Less,Yes,,Yes,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,7.5,Nutrition,Higher Secondary,C-Section,Normal
+Male,76,5.8,50,8,No,3.8,1,,Natural,No,69,No,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,9,Overnutrition,Secondary,C-Section,SAM
+Female,335,10.5,60,15,No,2.8,1,Premature,Natural,Yes,328,No,Acute,5,No,No,No,No,No,No,No,No,No,Partially Completed,8,Nutrition,Higher Secondary,C-Section,Normal
+Female,1826,12,99,16,No,3,1,Mature,Natural,No,913,No,No,0,Yes,No,Yes,No,No,No,No,No,No,Completed,10,Nutrition,Secondary,C-Section,Normal
+Male,761,10.8,76,17,,3,1,Mature,Natural,No,731,No,No,0,No,No,No,No,No,No,No,No,No,Completed,10,Nutrition,Secondary,C-Section,Normal
+Male,244,7,63,17.5,,,1,Mature,Natural,No,236,No,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,10,Nutrition,Secondary,C-Section,Normal
+Male,457,10.8,81,15.5,No,3.5,1,Mature,Less,Yes,450,No,No,0,Yes,Chronic,Yes,Yes,No,Yes,No,No,No,Completed,10,Nutrition,Secondary,C-Section,Normal
+Female,517,10,83,14,No,3.7,1,Mature,Natural,Yes,510,Yes,No,0,Yes,No,Yes,Yes,No,No,No,Yes,No,Partially Completed,10,Overnutrition,Higher Secondary,C-Section,Normal
+Female,457,11.5,72.5,18,No,,1,Mature,Natural,Yes,450,No,Acute,4,No,No,No,No,No,,No,No,No,Completed,9,Overnutrition,Secondary,C-Section,Normal
+Male,213,,63.5,14,No,2.9,1,Mature,Less,Yes,61,Yes,Persistent,15,No,No,No,No,,No,No,No,No,Partially Completed,9,Nutrition,Primary,C-Section,Normal
+Female,335,8.2,73,14,No,3.8,1,Mature,Less,Yes,122,Yes,Acute,5,No,No,No,No,No,No,No,No,No,Partially Completed,10,Nutrition,Higher Secondary,C-Section,Normal
+Male,304,7,71,13,No,,1,Mature,Natural,Yes,297,No,Acute,4,Yes,No,Yes,No,No,No,No,No,No,Partially Completed,10,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,304,9,71,15,No,3,1,,Natural,Yes,297,No,Acute,7,No,Acute,No,No,No,No,No,No,No,Partially Completed,10,Nutrition,Secondary,C-Section,Normal
+Male,304,7.7,64,14,No,2.8,1,No,Natural,Yes,297,No,Acute,5,No,No,Yes,No,No,,No,No,No,Partially Completed,10,Nutrition,Primary,C-Section,Normal
+Male,152,7.2,62,15,,2.6,1,Mature,Less,Yes,145,Yes,Acute,2,Yes,No,Yes,No,No,No,No,No,No,Partially Completed,9,Overnutrition,Higher Secondary,C-Section,Normal
+Male,400,9,76,16,No,3.5,1,Mature,Natural,Yes,393,No,No,0,No,No,No,Yes,No,,No,No,No,Partially Completed,10,Nutrition,Secondary,C-Section,Normal
+Male,1461,8.8,78,11,Yes,2,1,Premature,Less,Yes,122,Yes,No,0,No,No,No,Yes,No,No,No,Yes,No,Completed,7.2,Undernutrition,Primary,C-Section,SAM
+Female,730,7,74,13,No,1.7,1,Premature,Natural,Yes,700,Yes,No,0,No,No,No,No,,No,No,No,No,Partially Completed,7,Undernutrition,Primary,C-Section,Mild Malnutrition
+Male,1826,14.2,105.5,13.5,No,2.5,1,Mature,Natural,Yes,913,No,No,0,Yes,No,Yes,No,No,No,No,No,No,Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,274,7.5,61,12.5,,2.8,1,Mature,No,Yes,0,Yes,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,244,7,65,13.5,No,2.7,1,Mature,Natural,Yes,236,Yes,Acute,,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9,Undernutrition,Higher Secondary,C-Section,Normal
+Male,73,5.5,64,12.5,No,2.7,1,Mature,Natural,No,66,No,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,8.5,Undernutrition,Secondary,C-Section,Mild Malnutrition
+Male,129,7,64,13.5,No,2.2,1,Mature,Natural,Yes,122,Yes,No,0,Yes,Chronic,Yes,Yes,No,Yes,No,Yes,No,Partially Completed,9,Nutrition,Primary,C-Section,Normal
+Female,913,14,101,17.5,No,3.3,1,Mature,Natural,Yes,883,No,No,0,No,No,No,No,,No,No,No,No,Completed,9,Nutrition,Primary,C-Section,Normal
+Male,152,13,97,14.5,No,3,1,Mature,Natural,Yes,145,Yes,No,0,No,Chronic,Yes,Yes,No,,No,Yes,No,Partially Completed,9,Nutrition,Primary,C-Section,Normal
+Male,353,,66.5,13,No,2.3,1,Premature,Natural,Yes,335,No,No,0,No,Chronic,Yes,Yes,No,Yes,No,Yes,No,Partially Completed,7,Undernutrition,Primary,C-Section,Mild Malnutrition
+Male,791,11,75,16,No,3.6,1,Mature,Natural,No,761,No,Acute,4,Yes,Chronic,Yes,Yes,No,Yes,No,Yes,No,Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,457,9,75,13,No,3.2,1,Mature,Natural,Yes,450,Yes,Acute,7,No,No,No,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,365,10.5,77,14,No,2.2,1,Mature,Natural,Yes,304,No,Acute,9,No,No,Yes,No,No,No,No,No,No,Partially Completed,9,Undernutrition,Higher Secondary,C-Section,Normal
+Male,335,8,70,15,No,2.7,1,,Natural,Yes,328,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9,Undernutrition,Secondary,C-Section,Normal
+Male,1096,10,74,13,No,3.5,1,,Natural,Yes,1066,No,Acute,2,No,No,Yes,No,,No,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,152,7,57,13,No,3.5,1,,No,Yes,46,Yes,Chronic,45,No,No,No,No,No,Yes,No,No,No,Partially Completed,9,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Female,183,7.5,55,14,,3,1,,Natural,Yes,176,Yes,No,0,No,Chronic,No,Yes,No,,No,Yes,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Female,61,3.6,45,8,No,2.4,2,Mature,No,Yes,0,Yes,No,0,Yes,No,No,Yes,No,No,No,No,No,,9,Undernutrition,Primary,C-Section,SAM
+Female,61,3.8,48,9,No,3,2,,No,Yes,0,Yes,No,0,No,No,No,No,Yes,No,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,SAM
+Male,396,9,78,13.5,No,3.1,1,Mature,Less,Yes,365,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,1461,16.5,97,16,No,3.3,1,Mature,Natural,Yes,761,No,Acute,7,Yes,No,Yes,No,,No,No,No,No,Completed,,Nutrition,Primary,C-Section,Normal
+Male,274,9,55,12,No,3.2,1,Mature,No,Yes,0,Yes,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,MAM
+Female,30,2.7,40,11,No,2.3,1,Mature,Natural,No,23,No,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,9,Undernutrition,Secondary,C-Section,SAM
+Male,122,7.5,65,14.5,,3.5,1,Mature,Less,Yes,115,Yes,No,0,No,No,No,Yes,Yes,No,No,No,No,,9,Nutrition,Primary,C-Section,Normal
+Male,91,5,56,11.5,No,2.7,2,Mature,Less,Yes,84,Yes,No,,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Primary,C-Section,MAM
+Male,91,5.2,55,11.5,No,2.8,2,,Less,Yes,84,Yes,No,0,No,No,No,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Primary,C-Section,MAM
+Male,61,5,58,13.5,,3,1,Mature,Natural,No,54,No,No,0,No,No,No,Yes,No,No,No,Yes,No,,9,Nutrition,Secondary,C-Section,Normal
+Male,61,5,58,13.5,No,3,1,Mature,Natural,No,54,No,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,335,8,64,16,No,2.3,1,,Natural,Yes,328,No,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,7,Overnutrition,Secondary,C-Section,Normal
+Female,94,5.2,60,11,No,3.2,1,Mature,Natural,Yes,91,Yes,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Secondary,C-Section,SAM
+Male,98,7,55,13,No,4,1,Mature,Natural,No,91,No,No,0,No,No,No,Yes,Yes,No,No,No,No,Partially Completed,,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,35,4.1,40,10,No,2.2,1,Mature,Natural,Yes,28,Yes,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,,9.2,Nutrition,Higher Secondary,C-Section,SAM
+Male,730,11,80,17,No,3.5,1,Mature,Natural,Yes,365,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Completed,10,Nutrition,Primary,C-Section,Normal
+Male,125,7,68,14.5,No,2.5,1,Mature,Natural,Yes,122,Yes,Acute,1,Yes,Chronic,No,Yes,,Yes,No,Yes,No,Partially Completed,10,Nutrition,Higher Secondary,C-Section,Normal
+Female,61,4,57,11.5,No,3.2,1,Mature,Natural,No,54,No,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,10,Nutrition,Higher Secondary,C-Section,MAM
+Male,183,10,74,15.5,No,2.5,1,Mature,Natural,No,176,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,Yes,No,,10,Nutrition,Secondary,C-Section,Normal
+Male,152,6.6,67,13.5,No,3,1,Mature,Natural,No,145,No,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,,9.2,Nutrition,Secondary,C-Section,Normal
+Female,369,12,79.5,17.5,No,3.5,1,Mature,Stopped,No,0,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9,Overnutrition,Higher Secondary,C-Section,Normal
+Female,365,8.8,70,15.5,No,3.2,1,Mature,Natural,Yes,358,No,No,0,No,No,No,No,Yes,No,No,No,No,Partially Completed,9.2,Nutrition,Secondary,C-Section,Normal
+Male,152,7,,13.5,No,3.5,1,Mature,Natural,No,145,No,No,0,No,No,No,Yes,Yes,No,No,No,No,Partially Completed,9.1,Nutrition,Higher Secondary,C-Section,Normal
+Male,913,9.3,81,14.5,No,1.3,1,Premature,Natural,Yes,883,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Completed,,Undernutrition,Secondary,C-Section,Normal
+Female,279,,67,14.5,No,2.5,1,Premature,Natural,Yes,272,No,No,0,Yes,No,No,No,No,,No,No,No,Partially Completed,8.2,Overnutrition,Secondary,C-Section,Normal
+Male,244,8,65.5,14,No,3.2,1,Premature,No,Yes,30,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,8.2,Overnutrition,Secondary,C-Section,Normal
+Male,61,5,54.5,13.5,No,2.8,1,Mature,Less,Yes,54,Yes,No,0,Yes,No,No,No,No,No,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,Normal
+Male,189,,67,13.5,No,3,1,Mature,Natural,Yes,182,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,,Nutrition,Higher Secondary,C-Section,Normal
+Female,7,1.5,45,7,,1.7,1,Premature,Natural,No,0,No,No,0,No,No,No,No,Yes,No,No,No,No,Partially Completed,7.2,Overnutrition,Secondary,C-Section,SAM
+Male,152,7,69.5,14,No,3,1,Mature,Natural,No,145,No,No,,Yes,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,9.3,Nutrition,Primary,C-Section,Normal
+Female,517,,72,14,No,1.8,1,Mature,Less,Yes,510,No,No,0,Yes,Chronic,No,Yes,,Yes,No,No,No,Partially Completed,10,Undernutrition,Higher Secondary,C-Section,Normal
+Female,216,6.2,67,12.5,No,2.5,1,Premature,Less,No,213,No,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,8.2,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,98,5.2,60,12.5,No,3.3,1,Mature,Natural,No,91,No,No,0,No,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,578,13,67,14,No,2.7,1,Mature,Natural,No,207,No,Acute,,No,No,No,No,No,No,No,No,No,,9,Nutrition,Primary,C-Section,Normal
+Male,244,8.2,71,13,No,1.8,1,Premature,Less,Yes,236,Yes,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,8,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Female,1613,17,104,16,No,3.7,1,Premature,Natural,No,457,No,No,0,No,No,Yes,No,No,No,No,No,No,Completed,8,Nutrition,Secondary,C-Section,Normal
+Female,1461,12.5,93,14.5,No,2.8,1,Mature,Natural,No,730,No,No,0,Yes,No,Yes,Yes,,,No,No,No,Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,100,5.3,61,12,No,2.2,1,Mature,Natural,Yes,93,Yes,No,0,Yes,Acute,No,Yes,No,,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,MAM
+Male,146,7,65,11,No,2.5,1,,Natural,No,139,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,,Nutrition,Primary,C-Section,SAM
+Male,944,12.9,66.5,11,No,2.6,1,,Natural,No,914,No,No,0,Yes,Acute,No,Yes,No,No,No,Yes,No,Completed,9,Undernutrition,Secondary,C-Section,SAM
+Female,411,6.7,67,11,No,2.5,1,Mature,Natural,Yes,404,No,No,0,No,Acute,No,No,No,No,No,Yes,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,SAM
+Male,944,12.9,99,14.5,No,3.5,1,Mature,Natural,Yes,914,Yes,No,0,Yes,No,No,Yes,No,No,No,No,No,Completed,10,Overnutrition,Higher Secondary,C-Section,Normal
+Male,76,6,52,14,No,3.6,1,Mature,Natural,No,69,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,,Nutrition,Higher Secondary,C-Section,Normal
+Male,244,8,69,14,,3.5,1,Mature,Natural,No,236,No,No,0,Yes,Chronic,Yes,Yes,No,Yes,No,No,No,Partially Completed,,Overnutrition,Higher Secondary,C-Section,Normal
+Female,183,6,66,11,No,2.8,1,Mature,Natural,No,176,No,No,0,Yes,No,Yes,No,No,,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,SAM
+Male,122,5.2,61,11,No,3,1,Mature,Less,Yes,115,Yes,No,0,Yes,Acute,Yes,Yes,No,No,No,No,No,Partially Completed,10,Nutrition,Higher Secondary,C-Section,SAM
+Female,1278,11.3,75,14,,1.7,1,Mature,Natural,Yes,730,Yes,No,0,No,No,No,No,No,,No,No,No,Completed,9,Undernutrition,Higher Secondary,C-Section,Normal
+Male,122,6.2,69.5,13,No,3.5,1,Mature,Natural,Yes,115,Yes,Acute,3,Yes,Acute,Yes,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,58,5.7,57,14,No,4.7,1,Mature,Less,Yes,51,Yes,No,0,No,No,No,No,No,No,No,Yes,No,Partially Completed,10,Nutrition,Secondary,C-Section,Normal
+Female,107,4.8,60,12,No,3.3,1,Mature,Natural,No,100,No,No,0,No,Acute,Yes,Yes,No,No,No,No,No,,9,Nutrition,Higher Secondary,C-Section,MAM
+Male,335,8,77,13.5,No,3.3,1,Mature,Natural,No,328,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,122,7.5,80,14,,2.8,1,Premature,Natural,No,115,No,No,0,Yes,Chronic,No,Yes,No,,No,Yes,No,,8,Overnutrition,Higher Secondary,C-Section,Normal
+Female,213,6,61,12,No,3.7,1,Mature,Less,Yes,183,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,MAM
+Male,582,10.2,75,17,No,1.8,1,Mature,Natural,No,575,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Primary,C-Section,Normal
+Male,219,9,67,17,No,3.5,1,Mature,Natural,No,212,No,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,Normal
+Male,304,8.5,77,15,,2.7,1,Premature,Natural,No,297,Yes,No,,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,8.2,Nutrition,Higher Secondary,C-Section,Normal
+Female,128,5,60,13,,2.3,1,Premature,Natural,Yes,121,Yes,No,,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,740,10.4,88,16,,3.6,1,Mature,Natural,No,710,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Completed,9.2,Nutrition,Higher Secondary,C-Section,Normal
+Male,274,8,69,14.5,,2.5,1,,Natural,No,267,No,No,0,Yes,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,9.1,Overnutrition,Higher Secondary,C-Section,Normal
+Male,188,,68,15,No,2.9,1,Mature,Natural,No,187,No,No,0,Yes,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,9.2,Nutrition,Secondary,C-Section,Normal
+Male,207,6,65,13,No,2.6,1,Premature,Natural,No,200,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,8.1,Nutrition,Higher Secondary,Normal,Mild Malnutrition
+Female,408,10.5,86.1,13.3,No,3.5,1,Mature,Natural,No,401,No,No,0,No,No,Yes,Yes,,No,No,Yes,No,Partially Completed,10,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,1407,12,95.1,14.9,No,2.8,1,Mature,Natural,Yes,673,No,No,,Yes,No,No,No,,No,No,No,No,,9.1,Nutrition,Higher Secondary,C-Section,Normal
+Male,226,7.1,,13.3,No,3.1,1,Mature,Natural,Yes,139,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9.2,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,58,9.1,,15.6,No,2.4,1,Mature,Natural,No,51,No,No,0,Yes,No,No,No,No,No,No,Yes,No,Partially Completed,9.8,Nutrition,Higher Secondary,C-Section,Normal
+Male,58,6.6,,13.9,No,2.8,1,Mature,Natural,Yes,51,Yes,No,,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,9.4,Undernutrition,Higher Secondary,C-Section,Normal
+Male,559,11.2,68.5,17.7,No,3.3,1,Mature,Natural,Yes,552,Yes,No,0,Yes,No,Yes,No,No,No,No,No,No,Partially Completed,9.2,Overnutrition,Higher Secondary,C-Section,Normal
+Male,913,11.5,86.8,15.9,No,3.8,1,Mature,Less,Yes,664,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,9.2,Overnutrition,Higher Secondary,C-Section,Normal
+Female,258,7,60.2,12.6,No,2.8,1,Mature,Natural,Yes,255,Yes,No,0,Yes,Chronic,Yes,Yes,No,Yes,No,No,No,,9.4,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,399,7.9,61.1,12.9,No,2.6,1,Premature,Natural,Yes,325,No,No,0,Yes,No,No,No,No,No,No,Yes,No,Partially Completed,8.2,Nutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,127,9,,13.2,No,1.5,1,Premature,Natural,Yes,120,No,No,0,No,No,No,Yes,No,No,No,No,No,Partially Completed,8,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,370,8.6,68.5,14.1,No,3.1,1,Mature,Stopped,No,245,No,No,0,Yes,Chronic,No,No,No,Yes,No,No,No,Partially Completed,9.2,Nutrition,Secondary,C-Section,Normal
+Male,340,9.4,59.3,17.1,No,3.5,1,Mature,Natural,No,248,No,Acute,2,No,No,Yes,No,No,No,No,No,No,Partially Completed,9.1,Nutrition,Higher Secondary,C-Section,Normal
+Male,914,10.2,83.9,14.8,No,1.4,1,Premature,Stopped,No,884,No,No,0,Yes,No,Yes,No,No,No,No,No,No,,8.1,Undernutrition,Secondary,C-Section,Normal
+Female,58,5,58.7,13.8,No,2.9,1,Mature,Less,No,51,No,Acute,,No,Acute,No,No,No,No,No,No,No,Partially Completed,8.6,Nutrition,Secondary,C-Section,Normal
+Male,586,11.3,76.5,17.2,No,3.5,1,Mature,Natural,No,240,No,No,0,No,No,No,No,Yes,No,No,No,No,Partially Completed,9.8,Nutrition,Secondary,C-Section,Normal
+Male,185,7.7,65.2,14.4,No,2.6,1,Mature,Natural,No,111,No,No,0,Yes,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,9.4,Nutrition,Secondary,C-Section,Normal
+Female,831,11.5,77.2,16.9,No,3.1,1,,Natural,Yes,740,No,No,0,Yes,Chronic,Yes,No,No,Yes,No,No,No,Partially Completed,9.6,Nutrition,Secondary,C-Section,Normal
+Male,111,5.7,68,13.9,No,3.1,1,,Natural,No,30,No,No,0,Yes,No,No,Yes,No,,No,Yes,No,Partially Completed,9.3,Nutrition,Higher Secondary,C-Section,Normal
+Male,822,12.3,74.7,15.9,No,3.5,1,Mature,Natural,Yes,721,No,No,0,No,No,No,Yes,No,No,No,Yes,No,Completed,,Nutrition,Higher Secondary,C-Section,Normal
+Female,58,5.5,64.7,13.1,No,2.9,1,Mature,Less,Yes,51,No,Acute,2,Yes,Chronic,No,No,No,,No,No,No,Partially Completed,9.3,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,1660,16.5,99.7,16.2,No,3.7,1,Premature,Natural,Yes,415,Yes,No,0,Yes,Chronic,No,No,No,,No,No,No,,8,Nutrition,Higher Secondary,Normal,Normal
+Male,181,6.1,69.1,12.5,,2.5,1,Premature,Natural,Yes,174,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,7.9,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Male,401,7.5,63.3,14.9,No,2.7,1,Mature,Natural,No,195,Yes,No,0,Yes,No,Yes,Yes,No,No,No,No,No,Partially Completed,8.9,Overnutrition,Secondary,C-Section,Normal
+Male,363,8.8,73.2,15,No,3.1,1,Mature,Natural,No,233,No,No,0,Yes,No,No,Yes,,No,No,No,No,Partially Completed,9.7,Nutrition,Secondary,C-Section,Normal
+Female,69,9.7,75,14.6,No,2.7,1,Mature,Natural,No,62,No,No,0,No,No,Yes,Yes,No,No,No,No,No,Partially Completed,9.9,Nutrition,Secondary,C-Section,Normal
+Male,394,7.2,64.4,14.5,No,2.9,1,Mature,Natural,No,75,No,No,0,No,Acute,No,Yes,No,No,No,No,No,Partially Completed,8.8,Nutrition,Primary,C-Section,Normal
+Male,188,7.4,66.3,15.4,No,2.6,1,Mature,Less,Yes,67,Yes,No,0,No,No,Yes,Yes,No,No,No,No,No,Partially Completed,8.9,Overnutrition,Higher Secondary,C-Section,Normal
+Male,346,9.3,72.7,15.2,No,2.4,1,Mature,Natural,No,160,No,No,0,No,No,No,Yes,,No,No,No,No,Partially Completed,10,Overnutrition,Primary,C-Section,Normal
+Male,70,5,60.8,13,No,2.9,1,Mature,Natural,Yes,21,No,No,0,No,Chronic,Yes,No,No,Yes,No,No,No,Partially Completed,9.1,Nutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,211,8.9,68.7,12.7,No,1.9,1,Premature,Natural,No,138,No,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,,Overnutrition,Primary,C-Section,Mild Malnutrition
+Male,988,10.9,,15.9,No,3.6,1,Mature,Natural,Yes,792,No,No,0,No,No,No,Yes,No,,No,Yes,No,Partially Completed,9.1,Nutrition,Secondary,C-Section,Normal
+Male,680,12.5,80,17.1,No,3.7,1,Mature,Natural,Yes,374,No,No,0,No,No,Yes,Yes,No,No,No,No,No,Partially Completed,9.8,Nutrition,Primary,C-Section,Normal
+Female,881,13.7,103.9,18,No,3.6,1,,Less,No,851,No,No,0,Yes,No,No,Yes,No,No,No,No,No,,9,Nutrition,Secondary,C-Section,Normal
+Male,646,10.4,76.1,17.1,No,1.9,1,,Natural,Yes,437,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9,Undernutrition,Primary,C-Section,Normal
+Male,314,10.6,76.3,14.5,No,3,1,Premature,Natural,No,307,No,No,0,Yes,Acute,Yes,Yes,No,No,No,Yes,No,Partially Completed,,Nutrition,Primary,C-Section,Normal
+Male,289,8.2,71.4,12.9,No,1.6,1,,Less,No,138,Yes,No,0,Yes,Acute,Yes,Yes,No,,No,Yes,No,Partially Completed,8,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Female,279,7.8,64.3,14.4,No,2.8,1,Mature,Natural,No,272,Yes,No,0,Yes,Acute,Yes,Yes,No,No,No,Yes,No,Partially Completed,9.9,Nutrition,Secondary,C-Section,Normal
+Male,336,8.4,,15.9,No,2.4,1,Premature,Natural,No,329,Yes,Acute,1,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,7,Overnutrition,Secondary,C-Section,Normal
+Female,377,11.6,73.7,18,,3.2,1,Mature,Natural,Yes,370,Yes,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,8.7,Overnutrition,Primary,C-Section,Normal
+Male,1186,12.8,76,14.3,No,1.6,1,Mature,Natural,No,718,Yes,Acute,,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,8.7,Undernutrition,Secondary,C-Section,Normal
+Female,121,5.4,63.2,13.9,No,2.8,1,Mature,Natural,Yes,114,No,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,8.9,Nutrition,Secondary,C-Section,Normal
+Male,403,8.6,78.1,14.5,No,3.7,1,Mature,Natural,No,147,Yes,No,0,Yes,No,Yes,Yes,No,No,No,No,No,Partially Completed,10,Nutrition,Primary,C-Section,Normal
+Male,310,7.1,79,15.3,No,2.7,1,Premature,Natural,No,135,No,No,0,No,No,No,Yes,Yes,No,No,No,No,Partially Completed,,Nutrition,Secondary,C-Section,Normal
+Male,253,9.4,70.9,15.6,No,3.5,1,Mature,Natural,Yes,246,Yes,Acute,1,Yes,Chronic,No,No,No,Yes,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,Normal
+Female,58,6.6,63.7,13.1,No,2.4,1,Premature,Natural,Yes,51,Yes,No,0,No,Acute,Yes,No,No,No,No,No,No,Partially Completed,8.2,Nutrition,Primary,C-Section,Mild Malnutrition
+Male,292,5.8,69.2,17.7,,3,1,Mature,Less,Yes,285,Yes,No,0,No,No,Yes,Yes,No,No,No,No,No,Partially Completed,10,Nutrition,Higher Secondary,C-Section,Normal
+Male,58,7.7,,15.2,No,2.7,1,Mature,Natural,No,51,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9,Overnutrition,Higher Secondary,C-Section,Normal
+Female,302,5.1,60.5,13.6,No,2.9,1,Mature,Natural,Yes,103,Yes,No,0,Yes,Acute,No,No,No,No,No,No,No,Partially Completed,9,Overnutrition,Higher Secondary,C-Section,Normal
+Female,978,13,96.9,14.5,No,3.4,1,Mature,Natural,No,870,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9.8,Overnutrition,Primary,C-Section,Normal
+Male,58,5,48.8,13.4,No,3,1,Mature,Natural,Yes,32,No,Acute,,Yes,No,Yes,No,No,No,No,No,No,Partially Completed,8.6,Nutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,1750,13.8,104.3,13,No,2.4,1,Mature,Natural,No,863,No,No,0,No,No,No,Yes,,No,No,No,No,Partially Completed,8.9,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,458,8.5,75.6,15.4,,3.2,1,,Less,No,451,No,No,0,No,No,No,No,No,No,No,No,No,Completed,9.7,Nutrition,Secondary,C-Section,Normal
+Female,58,7.4,,12.9,No,2.2,1,Mature,Natural,No,51,No,No,0,No,No,No,No,No,No,No,Yes,No,Partially Completed,9.2,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,179,8.2,72.6,14.4,No,3.8,1,Mature,Less,No,74,Yes,No,0,No,Chronic,No,Yes,No,,No,No,No,Partially Completed,9.9,Nutrition,Primary,C-Section,Normal
+Female,834,7.2,71.6,12.9,No,1.5,1,Premature,Natural,Yes,660,Yes,No,0,No,No,Yes,No,No,No,No,Yes,No,Completed,7.1,Nutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,990,10.7,,16.4,No,3.6,1,,Less,Yes,752,No,No,0,Yes,No,No,No,No,,No,No,No,Completed,8.8,Nutrition,Higher Secondary,C-Section,Normal
+Female,285,7.2,64.4,13.9,No,3,1,Mature,Natural,Yes,278,Yes,Acute,3,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9.9,Nutrition,Secondary,C-Section,Normal
+Male,58,6.8,56.5,13.5,No,2.8,1,Mature,Natural,Yes,51,No,No,0,No,No,No,No,No,No,No,No,No,Partially Completed,,Nutrition,Higher Secondary,C-Section,Normal
+Female,270,8.3,68,14.4,No,2.5,1,Mature,Natural,Yes,142,No,No,0,No,Chronic,Yes,Yes,No,Yes,No,No,No,Partially Completed,,Overnutrition,Primary,C-Section,Normal
+Male,310,7,65.4,14.2,No,2.8,1,Mature,Natural,No,303,No,No,0,No,No,No,Yes,No,No,No,No,No,Partially Completed,9.9,Nutrition,Higher Secondary,C-Section,Normal
+Male,1203,10.2,74.5,12.9,,3.6,1,Mature,Less,Yes,1070,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Completed,8.9,Nutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,429,10.4,75.8,15.7,No,3.4,1,Mature,Natural,Yes,,Yes,Acute,,No,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,10,Nutrition,Primary,C-Section,Normal
+Male,122,9.3,76.9,15.8,,2.2,1,Mature,Natural,Yes,115,No,Acute,,Yes,Chronic,Yes,Yes,No,,No,No,No,Partially Completed,10,Overnutrition,Higher Secondary,C-Section,Normal
+Male,227,6.8,64.5,13.1,No,2.2,1,,Natural,Yes,220,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,7,Undernutrition,Secondary,C-Section,Mild Malnutrition
+Female,58,6,58.8,14.1,No,4.7,1,Mature,Natural,Yes,51,No,No,0,Yes,Acute,No,Yes,,,No,Yes,No,Partially Completed,,Nutrition,Higher Secondary,C-Section,Normal
+Male,446,9,75.4,13.5,No,3.1,1,,Natural,Yes,274,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,450,13.8,76.6,14.1,No,2.8,1,Mature,Natural,Yes,173,No,No,0,No,No,Yes,Yes,No,No,No,No,No,Partially Completed,8.7,Nutrition,Secondary,C-Section,Normal
+Female,1826,11.2,99.5,16.4,No,3.1,1,Mature,Natural,Yes,907,Yes,Acute,,Yes,Acute,No,No,No,No,No,No,No,Completed,10,Nutrition,Secondary,C-Section,Normal
+Male,82,5.3,53.6,13.5,No,2.8,1,,Less,Yes,75,No,No,0,Yes,Chronic,No,No,No,Yes,No,No,No,Partially Completed,8.8,Overnutrition,Primary,C-Section,Normal
+Female,58,7,,14.8,No,3.4,1,Mature,Less,Yes,51,No,No,0,Yes,No,No,No,No,No,No,Yes,No,Partially Completed,8.8,Nutrition,Secondary,C-Section,Normal
+Female,187,13,98.6,14.7,No,3.1,1,Mature,Natural,Yes,180,No,No,,No,No,No,Yes,No,No,No,No,No,Partially Completed,8.8,Nutrition,Secondary,C-Section,Normal
+Male,370,8.7,77.5,16.2,,3.4,1,Mature,Natural,Yes,363,Yes,Acute,1,No,No,No,No,No,No,No,No,No,Partially Completed,9.8,Nutrition,Higher Secondary,C-Section,Normal
+Male,325,7.4,63,16.4,No,,1,Premature,Natural,No,240,Yes,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,7,Overnutrition,Secondary,C-Section,Normal
+Male,58,7.2,,13.6,No,2.9,1,,Natural,Yes,51,No,Acute,1,Yes,No,No,No,No,No,No,No,No,Partially Completed,8.4,Nutrition,Primary,C-Section,Normal
+Female,101,12.4,87.8,14.4,No,3.1,1,Mature,Natural,Yes,94,Yes,No,0,No,No,No,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Female,172,10.7,60,14.8,No,2.8,1,Premature,Natural,Yes,165,No,Acute,6,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,8.3,Overnutrition,Primary,C-Section,Normal
+Male,385,9.7,69,16.4,No,2.2,1,Premature,Natural,No,274,No,No,0,No,Acute,Yes,No,No,No,No,Yes,No,Partially Completed,7,Overnutrition,Secondary,C-Section,Normal
+Male,90,6.7,53.5,13.9,No,2.9,1,Mature,Natural,Yes,83,No,No,0,No,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,8.9,Nutrition,Higher Secondary,C-Section,Normal
+Female,802,11.8,82,15.8,No,3.6,1,Mature,Natural,Yes,772,No,Acute,,Yes,No,Yes,No,,No,No,Yes,No,Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,674,10.5,76.3,17.3,No,2.9,1,Mature,Natural,Yes,635,No,No,0,Yes,Chronic,Yes,Yes,No,Yes,No,Yes,No,Partially Completed,10,Nutrition,Higher Secondary,C-Section,Normal
+Male,780,11.1,77.8,16.5,,3.6,1,Mature,Natural,No,750,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9.2,Nutrition,Primary,C-Section,Normal
+Male,214,7.8,61.9,13.9,No,2.7,1,Premature,No,Yes,207,No,No,0,Yes,Acute,Yes,Yes,No,No,No,No,No,Partially Completed,7.6,Nutrition,Higher Secondary,C-Section,Normal
+Male,668,10.4,74.2,17.4,No,3.4,1,Mature,Natural,No,427,Yes,Acute,1,No,No,Yes,Yes,No,No,No,No,No,Completed,8.6,Overnutrition,Higher Secondary,C-Section,Normal
+Female,437,7.9,67.7,13.3,No,3.2,1,,Natural,No,328,Yes,No,0,No,Acute,No,No,No,No,No,No,No,Partially Completed,10,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,404,13.5,65,13.9,No,2.4,1,Mature,Less,No,160,No,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,9.3,Overnutrition,Secondary,C-Section,Normal
+Female,308,12.4,79.2,17.2,No,3.4,1,,Natural,Yes,99,No,Acute,,Yes,No,Yes,Yes,No,No,No,No,No,Partially Completed,9,Overnutrition,Secondary,C-Section,Normal
+Male,289,7.2,65.4,12.7,No,2.5,1,Premature,Natural,Yes,238,Yes,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,8.2,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,58,13.6,,14.6,No,,2,Mature,Less,Yes,51,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,58,6,50.6,13.7,No,3.6,2,Mature,Natural,No,51,No,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,8.8,Nutrition,Primary,C-Section,Normal
+Male,215,5.8,67.2,12.5,No,3.8,1,Mature,Natural,Yes,178,No,Acute,4,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,810,10.8,86.3,16.2,No,3.5,1,Mature,Natural,Yes,722,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9,Overnutrition,Primary,C-Section,Normal
+Male,384,10.2,84.4,12.9,No,3.5,1,,Natural,Yes,303,Yes,No,0,No,Chronic,No,No,,,No,No,No,Partially Completed,9.1,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,165,6.4,64,13,,3.1,1,Mature,Less,No,99,No,No,0,Yes,No,No,No,No,No,No,No,No,Partially Completed,9.2,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,171,6.6,57.3,14.6,No,2.7,1,Premature,Natural,Yes,137,No,No,0,Yes,Chronic,No,No,No,,No,Yes,No,Partially Completed,7.5,Nutrition,Higher Secondary,C-Section,Normal
+Male,259,8.2,59.8,15.8,No,2.2,1,Premature,Natural,Yes,252,Yes,No,0,Yes,Acute,No,No,No,No,No,Yes,No,Partially Completed,7,Overnutrition,Higher Secondary,C-Section,Normal
+Male,322,6.8,54.6,16.8,No,2.8,1,Mature,Natural,Yes,315,No,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,9.8,Nutrition,Higher Secondary,C-Section,Normal
+Male,892,6.9,74.9,12.5,No,1.6,1,Premature,Natural,Yes,745,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,Yes,No,Completed,7.1,Undernutrition,Secondary,C-Section,Mild Malnutrition
+Male,78,7.6,83.3,13.8,No,2.7,1,Premature,Natural,Yes,71,No,No,0,No,No,Yes,No,No,No,No,Yes,No,Partially Completed,8.3,Nutrition,Higher Secondary,C-Section,Normal
+Male,253,9.1,69.8,15.2,No,3.1,1,Mature,Stopped,No,246,No,Acute,9,Yes,No,No,No,,No,No,No,No,Partially Completed,9.8,Nutrition,Higher Secondary,C-Section,Normal
+Female,437,8.4,71,14.4,No,2.8,1,Mature,Stopped,No,376,Yes,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,9.9,Undernutrition,Primary,C-Section,Normal
+Male,1826,12.1,94.7,15.7,No,3,1,Mature,Natural,Yes,996,Yes,No,0,Yes,No,No,Yes,,,No,Yes,No,Partially Completed,10,Nutrition,Secondary,C-Section,Normal
+Female,209,7.4,61.6,12.9,,4.4,1,Mature,Natural,Yes,82,Yes,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,10,Overnutrition,Primary,C-Section,Mild Malnutrition
+Male,819,13.6,101.3,14.8,No,3.5,1,Mature,Natural,Yes,789,No,No,0,Yes,No,No,Yes,No,No,No,No,No,,10,Overnutrition,Higher Secondary,C-Section,Normal
+Male,92,13.8,96,14.9,No,3.1,1,Mature,Less,Yes,85,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,8.9,Nutrition,Primary,C-Section,Normal
+Male,258,9.5,73.4,15.3,No,2.6,1,Premature,Natural,Yes,250,No,No,0,No,Chronic,No,No,,Yes,No,No,No,Partially Completed,8,Nutrition,Secondary,C-Section,Normal
+Female,129,7.2,68.4,17.3,No,3.1,1,Mature,Natural,Yes,116,No,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,10,Nutrition,Higher Secondary,C-Section,Normal
+Male,393,7.6,72.1,15.2,No,2.7,1,Mature,Less,No,305,No,No,0,No,No,Yes,Yes,No,No,No,Yes,No,,9.2,Undernutrition,Higher Secondary,C-Section,Normal
+Male,1556,16.7,99,16,No,3.2,1,Mature,Natural,Yes,743,No,No,0,No,Acute,No,No,No,No,No,No,No,Completed,,Nutrition,Higher Secondary,C-Section,Normal
+Female,517,9.8,71.6,17.1,,1.8,1,Mature,Less,No,427,Yes,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,8.8,Undernutrition,Secondary,C-Section,Normal
+Male,135,6.5,66.3,14.6,No,2.6,1,Mature,Natural,No,133,Yes,No,0,Yes,Chronic,Yes,Yes,No,,No,Yes,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,Normal
+Female,281,7.6,64.2,12.6,No,3,1,Mature,Natural,Yes,1,Yes,No,0,No,Acute,Yes,No,No,No,No,Yes,No,Partially Completed,9.5,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Male,58,5.8,58.2,12.5,No,3.1,1,Mature,Natural,No,51,No,Acute,3,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,8.8,Nutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,515,9,76.3,13.8,No,3.2,1,Mature,Less,Yes,455,No,No,,Yes,Chronic,No,No,No,Yes,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,Normal
+Male,622,11.3,,16.8,No,3.7,1,Mature,Natural,Yes,390,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,,10,Nutrition,Secondary,C-Section,Normal
+Male,189,6.9,58.4,12.9,No,3.4,1,Mature,Natural,Yes,156,Yes,No,0,Yes,No,Yes,Yes,No,No,No,No,No,Partially Completed,8.9,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Male,227,7.8,65,12.8,No,3,1,Mature,Natural,Yes,202,No,No,0,Yes,No,Yes,No,No,No,No,No,No,Partially Completed,9.4,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,159,7.5,53.5,14,No,3.6,1,,Less,Yes,149,No,No,0,Yes,No,No,Yes,No,,No,Yes,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,Normal
+Female,900,9.2,76.7,14.4,No,1.5,1,Premature,Natural,Yes,870,No,No,0,No,No,No,No,No,No,No,Yes,No,Partially Completed,8.1,Undernutrition,Secondary,C-Section,Normal
+Male,78,8.2,67.3,12.5,No,1.8,1,Premature,Natural,Yes,71,Yes,No,0,Yes,Chronic,No,No,No,Yes,No,Yes,No,Partially Completed,7.8,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Male,58,6.9,51.4,12.6,No,4,1,Mature,Less,No,37,Yes,Acute,,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,10,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Male,128,5.4,57.5,12.7,No,3.7,1,Mature,Natural,Yes,72,Yes,No,0,Yes,No,No,Yes,,No,No,No,No,Partially Completed,9.3,Undernutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,263,9.3,72,13.4,No,3.2,1,Mature,Natural,No,256,No,No,0,Yes,Acute,No,No,No,No,No,Yes,No,Partially Completed,9.2,Nutrition,Primary,C-Section,Mild Malnutrition
+Male,253,8.7,76.2,14.9,,3.1,1,Mature,Natural,No,203,No,No,0,No,No,No,Yes,,,No,Yes,No,Partially Completed,10,Undernutrition,Primary,C-Section,Normal
+Male,708,11,96.2,16,No,3.6,1,Mature,Natural,Yes,701,Yes,No,0,No,No,Yes,Yes,No,No,No,No,No,,9.2,Overnutrition,Higher Secondary,C-Section,Normal
+Female,227,7.6,75.8,15,No,2.4,1,Premature,Natural,Yes,226,No,Acute,1,No,No,No,Yes,No,No,No,No,No,,7.9,Nutrition,Primary,C-Section,Normal
+Male,300,7.4,66.1,14.7,,2.6,1,Mature,Natural,Yes,85,No,No,0,No,Acute,Yes,Yes,No,No,No,No,No,Partially Completed,8.8,Overnutrition,Secondary,C-Section,Normal
+Male,58,11.5,,14.4,No,2.9,1,Mature,Natural,Yes,51,No,No,0,Yes,No,No,No,No,No,No,Yes,No,Partially Completed,8.8,Nutrition,Higher Secondary,C-Section,Normal
+Male,199,7.8,67.8,15,No,2.2,1,Mature,Natural,Yes,118,Yes,Acute,1,No,No,No,No,,No,No,No,No,Partially Completed,10,Nutrition,Secondary,C-Section,Normal
+Male,508,13.2,68,13.9,No,2.8,1,Mature,Natural,Yes,260,No,No,0,Yes,No,Yes,Yes,No,,No,No,No,Partially Completed,8.7,Nutrition,Higher Secondary,C-Section,Normal
+Male,485,7.8,73.6,13.7,No,2,1,Mature,Stopped,No,478,Yes,No,0,No,No,No,No,No,No,No,Yes,No,Partially Completed,,Undernutrition,Higher Secondary,C-Section,Normal
+Male,242,7.5,64.9,14,No,3.2,1,Premature,Less,Yes,28,No,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,8.1,Overnutrition,Secondary,C-Section,Normal
+Female,492,13,66.7,13.2,No,2.7,1,Mature,Natural,No,196,No,No,0,No,Chronic,Yes,No,No,Yes,No,Yes,No,Partially Completed,8.8,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Female,198,6.9,60.9,13.6,No,3.4,1,Mature,Natural,Yes,191,No,No,0,Yes,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,9.3,Overnutrition,Secondary,C-Section,Normal
+Male,1176,12,72.4,14.1,No,1.7,1,Mature,Natural,No,658,No,No,0,No,Acute,No,Yes,No,No,No,No,No,Partially Completed,8.8,Nutrition,Higher Secondary,C-Section,Normal
+Female,58,5.3,,12.5,No,3.5,1,,Natural,No,51,Yes,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,9.1,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,1826,12.7,101.8,16.2,No,2.8,1,Mature,Less,Yes,1000,Yes,Acute,,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9.6,Nutrition,Primary,C-Section,Normal
+Male,413,8.6,81.9,12.6,No,1.7,1,,No,Yes,272,No,Acute,1,Yes,No,No,Yes,,No,No,No,No,Partially Completed,8.2,Overnutrition,Higher Secondary,C-Section,Mild Malnutrition
+Male,306,6.8,55.6,13.2,No,3.2,1,Mature,Natural,No,303,Yes,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9.3,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,300,11.3,99.7,14.3,No,2.9,1,Mature,Less,Yes,292,No,No,0,Yes,Acute,Yes,No,No,No,No,No,No,Partially Completed,9.1,Nutrition,Secondary,C-Section,Normal
+Male,1826,14.2,105.5,13.5,No,2.5,1,Mature,Natural,Yes,955,No,No,0,Yes,Acute,Yes,Yes,No,,No,No,No,Partially Completed,,Nutrition,Primary,C-Section,Normal
+Male,101,6.6,70.7,13.7,No,2.7,1,Mature,Natural,No,94,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9.3,Nutrition,Higher Secondary,C-Section,Normal
+Male,1187,8.6,68.9,13,,3.4,1,Mature,Natural,Yes,1005,Yes,Acute,5,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,8.9,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,279,8.4,72.8,13.4,No,4,1,Mature,Natural,No,113,Yes,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,,9.8,Undernutrition,Secondary,C-Section,Mild Malnutrition
+Male,309,7.5,61.8,12.7,No,2.4,1,Premature,Natural,No,187,No,No,0,No,Acute,No,No,No,No,No,Yes,No,Partially Completed,7,Undernutrition,Higher Secondary,C-Section,Mild Malnutrition
+Female,1532,10.8,76,13.7,No,2,1,Mature,Natural,No,791,No,Acute,,No,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,8.9,Undernutrition,Primary,Normal,Normal
+Male,252,6.7,67.6,13.6,No,2.9,1,Mature,Natural,Yes,245,No,No,0,Yes,No,Yes,Yes,,No,No,Yes,No,Partially Completed,9.8,Nutrition,Secondary,C-Section,Normal
+Female,424,8.6,70,15.1,No,2.3,1,Mature,Less,Yes,273,No,Acute,1,No,No,No,Yes,No,No,No,No,No,,8.9,Overnutrition,Higher Secondary,C-Section,Normal
+Female,629,11.2,73.6,17.1,No,3,1,Mature,Natural,Yes,622,Yes,No,0,No,No,No,Yes,Yes,No,No,No,No,,10,Undernutrition,Higher Secondary,C-Section,Normal
+Male,218,5,56.5,13.8,No,3.2,1,Mature,Natural,Yes,77,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,8.9,Nutrition,Secondary,C-Section,Normal
+Male,473,7.9,64.3,15,No,2.9,1,Mature,Natural,No,245,Yes,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,9.4,Nutrition,Higher Secondary,C-Section,Normal
+Male,58,7.6,,14.3,No,2.5,1,Mature,Natural,No,51,No,Acute,,No,No,Yes,No,No,No,No,Yes,No,Partially Completed,9.8,Nutrition,Secondary,C-Section,Normal
+Male,230,5.1,52.4,13.3,No,2.7,1,Mature,Natural,Yes,104,Yes,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,8.9,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Female,1577,11.9,91,15.1,No,2.9,1,Mature,No,Yes,706,No,No,0,Yes,No,No,Yes,,No,No,Yes,No,Partially Completed,8.8,Nutrition,Secondary,C-Section,Normal
+Male,211,8.9,67.8,17.3,No,3.3,1,Mature,Natural,Yes,148,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,,Nutrition,Primary,C-Section,Normal
+Female,58,5.5,55.2,13,,3,1,Mature,Less,Yes,51,Yes,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,1563,16.2,92.6,16.7,No,3.2,1,Mature,Natural,Yes,722,Yes,No,0,Yes,Acute,No,Yes,No,,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,58,5,56.6,13.4,,2.4,1,Premature,Natural,Yes,51,No,No,0,Yes,No,Yes,Yes,No,,No,Yes,No,Partially Completed,8.3,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Male,180,7.3,68.2,12.5,No,2.6,1,Mature,Natural,No,12,No,No,0,No,No,No,Yes,Yes,No,No,No,No,Partially Completed,8.9,Overnutrition,Secondary,C-Section,Mild Malnutrition
+Male,367,7.7,57,16,No,2.3,1,Premature,Natural,No,347,No,No,0,No,No,Yes,Yes,No,No,No,No,No,,7,Overnutrition,Primary,C-Section,Normal
+Male,263,7.4,56,14.1,No,3.6,1,Mature,Natural,Yes,126,No,Acute,,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,9.2,Nutrition,Secondary,C-Section,Normal
+Male,248,7.7,53.4,13.8,No,3,1,Mature,Natural,No,155,No,No,0,No,Acute,Yes,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Secondary,C-Section,Normal
+Male,306,8.4,71.4,15.9,No,3.2,1,Mature,Natural,Yes,299,No,No,0,No,Acute,No,Yes,No,No,No,No,No,Partially Completed,9.1,Nutrition,Higher Secondary,C-Section,Normal
+Male,58,5.2,55.2,12.5,No,2.7,1,Mature,Natural,Yes,51,No,No,0,No,Chronic,No,Yes,,Yes,No,Yes,No,,8.7,Nutrition,Secondary,C-Section,Mild Malnutrition
+Male,715,11,74.9,15.9,No,3.5,1,Mature,Natural,No,708,No,No,0,No,No,No,No,No,No,No,Yes,No,Partially Completed,8.8,Nutrition,Secondary,C-Section,Normal
+Male,928,10.4,72.6,15.5,No,3.9,1,Mature,Natural,Yes,812,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Completed,9.1,Nutrition,Secondary,C-Section,Normal
+Female,388,8.4,74.6,15.2,No,2.7,1,Premature,Natural,Yes,207,No,Acute,,No,Acute,No,Yes,No,No,No,No,No,Partially Completed,,Nutrition,Primary,C-Section,Normal
+Male,61,5,63.4,13.5,No,3,1,Mature,No,Yes,54,No,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,9.1,Nutrition,Secondary,C-Section,Normal
+Male,670,10,87.5,16,No,4,1,Mature,Natural,Yes,666,Yes,No,0,Yes,No,No,No,No,No,No,No,No,Completed,9.2,Overnutrition,Secondary,C-Section,Normal
+Male,206,6.6,62.5,13.7,No,2.1,1,Mature,Natural,No,75,No,Acute,2,No,Chronic,No,No,,Yes,No,No,No,Partially Completed,9.2,Overnutrition,Primary,C-Section,Normal
+Male,1543,13,96.5,14.6,No,3.3,1,,Natural,Yes,,Yes,Acute,1,Yes,No,Yes,Yes,No,No,No,No,No,Partially Completed,9.3,Nutrition,Secondary,C-Section,Normal
+Male,387,10.3,72.9,17.8,No,3.3,1,Mature,Natural,Yes,380,No,No,0,Yes,No,Yes,Yes,,No,No,Yes,No,Partially Completed,9.2,Overnutrition,Primary,C-Section,Normal
+Female,950,10.9,75,17.5,No,3.1,1,Mature,Natural,No,694,Yes,No,0,No,No,No,Yes,No,No,No,No,No,Completed,10,Nutrition,Secondary,C-Section,Normal
+Female,173,6,,8.1,No,3.8,1,Mature,Natural,Yes,166,No,No,0,No,No,No,Yes,Yes,No,No,No,No,Partially Completed,8.8,Overnutrition,Higher Secondary,C-Section,SAM
+Male,1461,8.8,78,11,No,2,1,Premature,Natural,Yes,,No,No,0,No,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,7.2,Undernutrition,Secondary,C-Section,SAM
+Female,230,6.9,60.6,11,,2.8,1,Mature,Natural,No,223,Yes,No,0,No,No,No,No,No,No,No,Yes,No,Partially Completed,9.2,Nutrition,Secondary,C-Section,SAM
+Male,193,6.7,73,10.4,No,2.8,1,,Less,Yes,69,No,No,0,No,Chronic,Yes,Yes,No,Yes,No,Yes,No,Partially Completed,8.9,Nutrition,Secondary,C-Section,SAM
+Female,192,5.6,59.5,10.6,No,3.2,1,Mature,Natural,No,189,Yes,No,0,No,No,No,No,Yes,No,No,No,No,Partially Completed,9.1,Nutrition,Secondary,C-Section,SAM
+Female,67,3.5,59.4,10.8,No,3.3,1,Mature,Natural,Yes,60,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,8.8,Nutrition,Primary,C-Section,SAM
+Female,135,4.1,42.5,8.3,,2.4,1,Mature,Natural,Yes,132,Yes,No,0,Yes,No,Yes,Yes,,No,No,Yes,No,Partially Completed,9,Undernutrition,Secondary,C-Section,SAM
+Female,13,3.1,40,10.9,No,2.3,1,Mature,Natural,No,6,No,No,0,No,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,9.3,Undernutrition,Secondary,C-Section,SAM
+Male,7,3.2,45.5,7.8,No,2.5,2,Mature,No,Yes,0,Yes,No,0,Yes,Chronic,Yes,Yes,No,Yes,No,No,No,Partially Completed,9.2,Undernutrition,Secondary,C-Section,SAM
+Female,206,4.9,60.7,11,No,3,1,Mature,Natural,No,171,Yes,No,0,No,Chronic,No,Yes,No,Yes,No,No,No,,9.7,Nutrition,Higher Secondary,C-Section,SAM
+Male,153,,40,10.7,No,2.1,1,Mature,Less,Yes,35,Yes,No,0,No,No,No,Yes,Yes,No,No,No,No,Partially Completed,9.1,Undernutrition,Higher Secondary,C-Section,SAM
+Male,66,4,62.2,11,No,3.1,1,Mature,Natural,Yes,65,No,No,0,No,Acute,No,Yes,No,No,No,No,No,Partially Completed,9.8,Nutrition,Secondary,C-Section,SAM
+Female,193,7.1,62.6,11,No,2.1,1,Mature,Natural,No,186,No,No,0,No,No,No,Yes,No,No,No,No,No,,9,Nutrition,Secondary,C-Section,SAM
+Female,7,2.3,47.3,7.4,No,1.8,2,Premature,Natural,Yes,0,Yes,No,0,Yes,No,No,No,No,No,No,No,No,Partially Completed,7.2,Overnutrition,Primary,C-Section,SAM
+Male,138,,44.8,7.4,No,2,1,Premature,Natural,Yes,40,No,No,0,Yes,Chronic,No,Yes,No,,No,Yes,No,Partially Completed,7.2,Overnutrition,Higher Secondary,C-Section,SAM
+Female,95,6,67.1,11,No,2.5,1,Mature,Natural,Yes,88,No,No,0,No,Chronic,No,Yes,No,,No,Yes,No,Partially Completed,8.8,Nutrition,Primary,C-Section,SAM
+Female,29,1.5,44.5,7,No,1.8,1,,Natural,No,0,No,No,0,No,Acute,No,No,No,No,No,No,No,Partially Completed,7.2,Overnutrition,Primary,C-Section,SAM
+Male,464,6.3,62,10.9,No,2.7,1,Mature,No,Yes,459,No,No,0,Yes,No,Yes,No,No,No,No,No,No,Partially Completed,9,Nutrition,Secondary,C-Section,SAM
+Female,185,5.8,67.8,11,No,2.9,1,,Natural,Yes,178,No,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Primary,C-Section,SAM
+Female,18,5.1,63.7,11,No,3,1,Mature,Natural,Yes,11,No,No,0,No,Acute,No,Yes,,No,No,Yes,No,Partially Completed,9.7,Nutrition,Secondary,C-Section,SAM
+Female,7,3.3,40,11,No,2.2,1,,Natural,Yes,0,Yes,No,0,Yes,Acute,No,No,No,No,No,No,No,Partially Completed,,Undernutrition,Higher Secondary,C-Section,SAM
+Female,1443,8.4,78,10.8,,1.7,1,Premature,Natural,No,219,Yes,No,0,Yes,Chronic,Yes,No,No,Yes,No,Yes,No,,7.2,Undernutrition,Primary,C-Section,SAM
+Female,299,5.9,65.7,10.4,Yes,2.8,1,Mature,Natural,No,247,No,No,0,No,Acute,No,No,No,No,No,No,No,Partially Completed,8.9,Nutrition,Secondary,C-Section,SAM
+Female,13,2.2,40,10.6,No,2.6,1,Mature,Natural,No,6,No,No,0,No,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Undernutrition,Secondary,C-Section,SAM
+Male,7,3,40,8.1,No,2.2,1,Mature,No,Yes,0,No,No,0,No,Acute,Yes,No,No,No,No,Yes,No,Partially Completed,9.4,Undernutrition,Secondary,C-Section,SAM
+Female,65,,60.4,10.7,No,3.3,1,Mature,Natural,No,58,No,No,0,Yes,Chronic,No,No,No,Yes,No,Yes,No,Partially Completed,8.9,Nutrition,Secondary,C-Section,SAM
+Male,221,7.4,65.9,11,No,2.7,1,Mature,Natural,No,129,Yes,No,0,Yes,Chronic,No,No,No,Yes,No,Yes,No,Partially Completed,8.9,Nutrition,Primary,C-Section,SAM
+Female,88,4.3,66.2,11,No,2.9,2,Mature,Less,No,81,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,,10,Nutrition,Higher Secondary,C-Section,SAM
+Male,1461,8.2,78,10.9,No,2,1,,Natural,Yes,,Yes,No,0,No,Acute,No,No,No,No,No,No,No,Completed,7.2,Undernutrition,Secondary,C-Section,SAM
+Female,22,4.1,42.6,10,No,2.4,1,Mature,Natural,Yes,19,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,Partially Completed,9,Nutrition,Primary,C-Section,SAM
+Male,110,5.2,60.6,12,No,2.2,1,,Natural,Yes,106,Yes,No,0,No,No,No,Yes,No,,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,MAM
+Male,63,4,56.2,11.5,No,3,2,Mature,Less,No,62,Yes,No,0,Yes,No,No,Yes,No,No,No,No,No,Partially Completed,9.9,Nutrition,Higher Secondary,C-Section,MAM
+Male,269,9,55,12,No,3.5,1,Mature,Natural,Yes,266,Yes,No,,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,9.1,Nutrition,Primary,C-Section,MAM
+Male,254,5.8,61,12,No,3.7,1,Mature,No,Yes,183,Yes,No,0,Yes,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,9.2,Nutrition,Primary,C-Section,MAM
+Male,274,9,56,11.9,No,3.1,1,Mature,Natural,Yes,6,Yes,No,0,No,No,No,Yes,,No,No,No,No,Partially Completed,9,Nutrition,Primary,C-Section,MAM
+Male,75,4.4,60.9,12,No,3.5,1,Mature,Less,Yes,68,No,No,0,No,Acute,No,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,MAM
+Male,92,5.9,56.1,11.5,No,2.7,1,Mature,Natural,Yes,85,No,No,0,Yes,Chronic,No,Yes,No,Yes,No,Yes,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,MAM
+Male,74,5,55,11.5,No,2.7,1,,Less,Yes,67,Yes,No,0,Yes,Chronic,No,Yes,No,,No,Yes,No,Partially Completed,9.1,Nutrition,Higher Secondary,C-Section,MAM
+Male,103,5,61,12,,2.2,1,,Less,No,96,Yes,No,0,No,Acute,Yes,Yes,No,No,No,No,No,,9,Nutrition,Higher Secondary,C-Section,MAM
+Female,96,5.2,59.9,12,,2.3,1,Mature,Natural,Yes,89,Yes,No,0,No,Acute,No,Yes,No,No,No,Yes,No,Partially Completed,9.2,Nutrition,Higher Secondary,C-Section,MAM
+Male,199,6.5,61,11.9,No,3.6,1,Mature,Natural,Yes,182,Yes,No,0,Yes,Acute,No,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Primary,C-Section,MAM
+Female,94,5.6,61,12,No,2.2,1,Mature,Natural,Yes,87,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,MAM
+Male,61,4,,11.5,No,3.2,1,Mature,Less,Yes,54,Yes,No,0,Yes,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,10,Nutrition,Primary,C-Section,MAM
+Female,89,4.9,55,11.5,No,2.9,1,Mature,Less,Yes,82,Yes,No,0,No,Acute,Yes,Yes,No,No,No,No,No,Partially Completed,9,Nutrition,Higher Secondary,C-Section,MAM
+Male,264,8.6,55,12,No,3.2,1,Mature,Natural,Yes,13,Yes,No,0,No,Chronic,No,Yes,No,Yes,No,No,No,Partially Completed,9.2,Nutrition,Higher Secondary,C-Section,MAM
+Female,61,5.6,55,11.6,,2.6,1,Mature,Natural,No,,No,No,0,Yes,No,No,Yes,No,No,No,Yes,No,,9.1,Nutrition,Higher Secondary,C-Section,MAM

@@ -1,0 +1,66 @@
+{
+  "model_name": "MalFusion",
+  "status": "ready",
+  "metrics": {
+    "accuracy": 0.9265,
+    "precision": 0.9257,
+    "recall": 0.9265,
+    "f1": 0.9259,
+    "hamming_loss": 0.0735,
+    "cv_folds": 3,
+    "smote_used": true,
+    "n_samples": 312,
+    "n_features": 33,
+    "classes": [
+      "MAM",
+      "Mild Malnutrition",
+      "Normal",
+      "SAM"
+    ],
+    "components": {
+      "random_forest": "RandomForestClassifier",
+      "svm": "SVC (RBF)",
+      "xgboost": "XGBClassifier",
+      "catboost": "CatBoostClassifier",
+      "smote": true
+    },
+    "trained_at": "2026-06-30 00:38:36"
+  },
+  "health": {
+    "issues": [
+      "256 missing value(s) across 11 column(s).",
+      "Outliers detected in: Age(days) (30), Weight(Kg) (4), Height(cm) (15), Birth Weight(Kg) (3), Multiple Baby (10), Pregnancy Duration(month) (34), Breastfeeding Duration(days) (20), Duration of Diarea (Day) (35).",
+      "Classes are imbalanced: Normal=187, Mild Malnutrition=59, SAM=43, MAM=23."
+    ],
+    "fixes": [
+      {
+        "problem": "Unused columns present: Middle Upper Arm Circumference(cm)",
+        "applied": "Dropped columns not used by the model."
+      },
+      {
+        "problem": "Missing numbers in: Weight(Kg), Height(cm), Birth Weight(Kg), Breastfeeding Duration(days), Duration of Diarea (Day), Pregnancy Duration(month).",
+        "applied": "Filled with the column median (robust to outliers)."
+      },
+      {
+        "problem": "Missing categories in: Odema, Birth Complication, Appetite, Chronic Disease, immunisation.",
+        "applied": "Filled with the most frequent category."
+      },
+      {
+        "problem": "Extreme values that can distort the model.",
+        "applied": "Capped (winsorised) to the IQR range during training."
+      },
+      {
+        "problem": "Some malnutrition classes are rarer than others.",
+        "applied": "Balanced with SMOTE oversampling during training."
+      }
+    ],
+    "ok": true,
+    "rows_after": 312
+  },
+  "data": {
+    "total_rows": 312,
+    "base_rows": 312,
+    "new_rows": 0,
+    "rows_after_cleaning": 312
+  }
+}

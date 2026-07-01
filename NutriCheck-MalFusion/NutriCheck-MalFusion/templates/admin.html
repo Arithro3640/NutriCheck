@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+{% block nav_admin %}active{% endblock %}
+{% block title %}Admin — NutriCheck{% endblock %}
+
+{% block content %}
+<section class="hero" style="padding-bottom:6px">
+  <span class="eyebrow"><svg style="width:14px;height:14px"><use href="#i-cog"/></svg> Admin panel</span>
+  <h1>Manage the <em>MalFusion</em> model</h1>
+  <p>Add new labelled records, check data quality, and retrain the model — all in one place.</p>
+</section>
+
+<!-- ===== Lock screen ===== -->
+<div class="panel lock-box" id="lock-box">
+  <div class="big-ic"><svg><use href="#i-lock"/></svg></div>
+  <h3 style="font-family:var(--font-display);margin:0">Admin access</h3>
+  <p class="muted-note">Enter the admin passcode to continue.</p>
+  <input type="password" id="passcode" placeholder="Passcode" autocomplete="current-password">
+  <button class="btn btn-primary btn-block" id="login-btn">Unlock</button>
+  <p class="muted-note">Default passcode is <strong>admin123</strong> — change it in <code>app.py</code>.</p>
+</div>
+
+<!-- ===== Admin content (hidden until unlocked) ===== -->
+<div id="admin-content" style="display:none">
+
+  <!-- Model status -->
+  <div class="panel admin-card" style="margin-bottom:22px">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+      <div>
+        <h3>Current model status</h3>
+        <p class="sub">Live snapshot of the trained MalFusion model.</p>
+      </div>
+      <span class="badge" id="model-badge">…</span>
+    </div>
+
+    <div class="stat-grid" id="status-stats">
+      <div class="stat"><div class="k">Accuracy</div><div class="v" id="st-acc">—</div></div>
+      <div class="stat"><div class="k">F1 score</div><div class="v" id="st-f1">—</div></div>
+      <div class="stat"><div class="k">Precision</div><div class="v small" id="st-prec">—</div></div>
+      <div class="stat"><div class="k">Recall</div><div class="v small" id="st-rec">—</div></div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="stat-grid">
+      <div class="stat"><div class="k">Total rows</div><div class="v small" id="st-rows">—</div></div>
+      <div class="stat"><div class="k">New records</div><div class="v small" id="st-new">—</div></div>
+      <div class="stat"><div class="k">Features used</div><div class="v small" id="st-feat">—</div></div>
+      <div class="stat"><div class="k">Last trained</div><div class="v small" id="st-when">—</div></div>
+    </div>
+
+    <p class="muted-note" style="margin-top:14px">Model components</p>
+    <div class="comp-list" id="st-components"></div>
+  </div>
+
+  <div class="admin-grid">
+    <!-- Train -->
+    <div class="panel admin-card">
+      <h3>Check &amp; train</h3>
+      <p class="sub">Scans every record for problems, fixes them automatically, then retrains MalFusion on all data — including new records you've added.</p>
+
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <button class="btn btn-ghost" id="check-btn">
+          <svg><use href="#i-check-data"/></svg><span>Check data only</span>
+        </button>
+        <button class="btn btn-primary" id="train-btn">
+          <svg><use href="#i-spark"/></svg><span>Train model now</span>
+        </button>
+      </div>
+
+      <div id="train-result" style="margin-top:18px;display:none">
+        <p class="muted-note">Problems found</p>
+        <ul class="report-list" id="issues-list"></ul>
+        <p class="muted-note" style="margin-top:14px">Preprocessing applied</p>
+        <ul class="report-list" id="fixes-list"></ul>
+      </div>
+    </div>
+
+    <!-- Add record -->
+    <div class="panel admin-card">
+      <h3>Add a new record</h3>
+      <p class="sub">Saved to <code>data/new_records.csv</code>. Train afterwards to learn from it.</p>
+
+      <div class="alert alert-error" id="rec-error" style="margin:0 0 12px"></div>
+
+      <div style="max-height:340px;overflow:auto;padding-right:4px" id="record-fields">
+        {% for f in features %}
+        <div class="field" style="margin-bottom:10px">
+          <label style="font-size:0.84rem">{{ f.label }}</label>
+          {% if f.kind == 'number' %}
+            <input type="number" step="{{ f.step }}" data-rec="{{ f.name }}" value="{{ f.default }}">
+          {% else %}
+            <select data-rec="{{ f.name }}">
+              {% for c in f.choices %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+            </select>
+          {% endif %}
+        </div>
+        {% endfor %}
+        <div class="field" style="margin-bottom:10px">
+          <label style="font-size:0.84rem;color:var(--primary-d);font-weight:800">Nutritional Status (label)</label>
+          <select data-rec="Nutritional_Status" id="rec-label">
+            {% for key, info in class_info.items() %}
+            <option value="{{ key }}">{{ info.label }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="save-rec-btn" style="margin-top:12px">
+        <svg><use href="#i-save"/></svg><span>Save record</span>
+      </button>
+      <a class="btn btn-ghost btn-block" id="download-btn" href="/api/admin/download-records" style="margin-top:10px">
+        <svg><use href="#i-download"/></svg><span>Download saved records (CSV)</span>
+      </a>
+    </div>
+  </div>
+
+  <div style="text-align:center;margin-bottom:50px">
+    <button class="btn btn-ghost" id="logout-btn">Log out of admin</button>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>window.__UNLOCKED__ = {{ 'true' if unlocked else 'false' }};</script>
+<script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+{% endblock %}

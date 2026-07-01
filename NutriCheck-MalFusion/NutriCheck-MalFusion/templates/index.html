@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block nav_home %}active{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <span class="eyebrow"><svg style="width:14px;height:14px"><use href="#i-spark"/></svg> AI-assisted screening</span>
+  <h1>Is this child <em>growing well?</em></h1>
+  <p>Fill in a few simple measurements and the child's recent health. NutriCheck estimates the nutritional status in seconds — no medical jargon needed.</p>
+</section>
+
+<div class="grid-2">
+  <!-- ===== Form ===== -->
+  <form class="panel" id="assess-form" novalidate>
+    <div class="form-head">
+      <h2>Child details</h2>
+      <p>Defaults are filled in for you. Adjust the ones you know — the key three are age, weight and height.</p>
+    </div>
+
+    <div class="alert alert-error" id="form-error"></div>
+
+    {% for group in groups %}
+    <fieldset class="section" style="border:0;margin:0;min-width:0">
+      <legend style="padding:0">
+        <span class="section-title">
+          <span class="ic"><svg><use href="#i-{{ {'child':'child','ruler':'ruler','heart':'heart','bottle':'bottle','stethoscope':'steth'}[group_icons[group]] }}"/></svg></span>
+          <h3>{{ group }}</h3>
+        </span>
+      </legend>
+      <div class="fields">
+        {% for f in features if f.group == group %}
+        <div class="field {% if f.kind == 'choice' and f.choices|length > 2 %}span-2{% endif %}">
+          <label for="fld-{{ loop.index0 }}-{{ group|replace(' ','') }}">{{ f.label }}</label>
+          {% if f.kind == 'number' %}
+            <input type="number" inputmode="decimal"
+                   id="fld-{{ loop.index0 }}-{{ group|replace(' ','') }}"
+                   data-name="{{ f.name }}"
+                   min="{{ f.min }}" max="{{ f.max }}" step="{{ f.step }}"
+                   value="{{ f.default }}"
+                   placeholder="{{ f.default }}">
+          {% else %}
+            {% if f.choices|length <= 3 %}
+              <div class="pills" id="fld-{{ loop.index0 }}-{{ group|replace(' ','') }}" role="group" data-name="{{ f.name }}" data-value="{{ f.choices[0] }}">
+                {% for c in f.choices %}
+                <button type="button" class="pill" data-val="{{ c }}"
+                        aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ c }}</button>
+                {% endfor %}
+              </div>
+            {% else %}
+              <select id="fld-{{ loop.index0 }}-{{ group|replace(' ','') }}" data-name="{{ f.name }}">
+                {% for c in f.choices %}
+                <option value="{{ c }}">{{ c }}</option>
+                {% endfor %}
+              </select>
+            {% endif %}
+          {% endif %}
+          <span class="hint">{{ f.help }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </fieldset>
+    {% endfor %}
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary btn-block" id="assess-btn">
+        <svg><use href="#i-spark"/></svg>
+        <span>Assess nutrition status</span>
+      </button>
+      <button type="reset" class="btn btn-ghost" id="reset-btn">Start over</button>
+    </div>
+  </form>
+
+  <!-- ===== Result ===== -->
+  <aside class="panel result-card" id="result-card">
+    <div class="result-empty" id="result-empty">
+      <div class="big-ic"><svg><use href="#i-shield"/></svg></div>
+      <h3>Your result appears here</h3>
+      <p>Complete the form and tap <strong>Assess nutrition status</strong> to see an estimate with confidence and guidance.</p>
+    </div>
+
+    <div class="result-body" id="result-body">
+      <div class="result-banner" id="result-banner">
+        <div class="gauge">
+          <svg width="116" height="116" viewBox="0 0 116 116">
+            <circle cx="58" cy="58" r="50" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="10"/>
+            <circle cx="58" cy="58" r="50" fill="none" stroke="#fff" stroke-width="10"
+                    stroke-linecap="round" stroke-dasharray="314" stroke-dashoffset="314" id="gauge-arc"/>
+          </svg>
+          <div class="pct" id="gauge-pct">0%</div>
+        </div>
+        <p class="status-label" id="status-label">—</p>
+        <p class="conf-text" id="conf-text">confidence</p>
+      </div>
+
+      <div class="result-detail">
+        <p class="blurb" id="result-blurb"></p>
+        <div id="prob-list"></div>
+      </div>
+
+      <div class="disclaimer">
+        This estimate is a screening aid, not a diagnosis. For a child with worrying signs
+        (swelling, very low weight, refusal to feed), seek a health worker without delay.
+      </div>
+    </div>
+  </aside>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+{% endblock %}
