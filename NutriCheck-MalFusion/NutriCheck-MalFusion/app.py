@@ -254,15 +254,10 @@ def admin_download():
                      download_name="new_records.csv", mimetype="text/csv")
 
 
+try:
+    reload_model()
+except Exception as e:
+    print(f"Unable to load trained model: {e}")
+
 if __name__ == "__main__":
-    # Train once on first run so the site works immediately.
-    if get_model() is None:
-        try:
-            print("No trained model found — training MalFusion for first use ...")
-            trainer.train_and_save()
-            reload_model()
-            print("Initial MalFusion model ready.")
-        except Exception as e:
-            print("Warning: initial training failed:", e)
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=False)
+    app.run(host="0.0.0.0", port=5000)
